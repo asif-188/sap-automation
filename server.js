@@ -744,6 +744,17 @@ app.post('/api/audit-logs', (req, res) => {
   res.status(201).json({ success: true, log: entry });
 });
 
+// Serve static frontend files if built
+const distPath = path.join(process.cwd(), 'dist');
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+  app.get('*', (req, res) => {
+    if (!req.path.startsWith('/api')) {
+      res.sendFile(path.join(distPath, 'index.html'));
+    }
+  });
+}
+
 // Start Server
 app.listen(PORT, () => {
   console.log(`=======================================================`);
@@ -751,3 +762,4 @@ app.listen(PORT, () => {
   console.log(` REST APIs running on port http://localhost:${PORT}`);
   console.log(`=======================================================`);
 });
+
