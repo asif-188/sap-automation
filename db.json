@@ -1,0 +1,4070 @@
+{
+  "stats": {
+    "totalEmails": 1536,
+    "invoiceEmails": 1006,
+    "vendorQueries": 230,
+    "soaEmails": 180,
+    "otherEmails": 120,
+    "pendingProcessing": 14,
+    "miroParked": 743,
+    "migoPosted": 618,
+    "reconciliationPending": 48,
+    "failedDocuments": 12
+  },
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@enterprise.com",
+      "role": "Admin",
+      "status": "Active",
+      "lastLogin": "2026-08-28 08:30 AM"
+    },
+    {
+      "id": "USR-002",
+      "name": "Anish Verma",
+      "email": "anish.verma@enterprise.com",
+      "role": "AP Processor",
+      "status": "Active",
+      "lastLogin": "2026-08-28 08:15 AM"
+    },
+    {
+      "id": "USR-003",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@enterprise.com",
+      "role": "Finance Manager",
+      "status": "Active",
+      "lastLogin": "2026-08-28 07:45 AM"
+    },
+    {
+      "id": "USR-004",
+      "name": "Sunil Mehta",
+      "email": "sunil.mehta@enterprise.com",
+      "role": "Vendor Reconciliation Lead",
+      "status": "Active",
+      "lastLogin": "2026-08-27 04:30 PM"
+    },
+    {
+      "id": "USR-005",
+      "name": "Kavita Reddy",
+      "email": "kavita.reddy@enterprise.com",
+      "role": "Read Only",
+      "status": "Inactive",
+      "lastLogin": "2026-08-20 02:10 PM"
+    }
+  ],
+  "emails": [
+    {
+      "id": "EML-9394",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8917 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:10:59.791Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412259791",
+          "name": "INV_SUB_1788412259791.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9432",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3043 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:10:19.783Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412219783",
+          "name": "INV_SUB_1788412219783.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9196",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8436 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:09:39.781Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412179781",
+          "name": "INV_SUB_1788412179781.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9285",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9643 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:08:59.779Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412139779",
+          "name": "INV_SUB_1788412139779.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9173",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4674 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:08:19.769Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412099769",
+          "name": "INV_SUB_1788412099769.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9423",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1305 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:07:39.724Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412059725",
+          "name": "INV_SUB_1788412059725.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9476",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2243 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:06:59.718Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788412019718",
+          "name": "INV_SUB_1788412019718.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9376",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4051 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:06:19.715Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411979715",
+          "name": "INV_SUB_1788411979715.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9288",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3044 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:05:39.710Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411939710",
+          "name": "INV_SUB_1788411939710.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9477",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5811 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:04:59.699Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411899699",
+          "name": "INV_SUB_1788411899699.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9388",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9881 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:04:19.692Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411859692",
+          "name": "INV_SUB_1788411859692.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9198",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9537 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:03:39.684Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411819684",
+          "name": "INV_SUB_1788411819684.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9311",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6273 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:02:59.681Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411779681",
+          "name": "INV_SUB_1788411779681.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9134",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3670 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:02:19.671Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411739671",
+          "name": "INV_SUB_1788411739671.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9315",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3112 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:01:39.659Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411699659",
+          "name": "INV_SUB_1788411699659.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9397",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7527 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:00:59.657Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411659657",
+          "name": "INV_SUB_1788411659657.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9082",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3787 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T05:00:19.651Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411619651",
+          "name": "INV_SUB_1788411619651.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9494",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2596 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:59:39.646Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411579646",
+          "name": "INV_SUB_1788411579646.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9351",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6291 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:58:59.631Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411539631",
+          "name": "INV_SUB_1788411539632.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9104",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4224 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:58:19.622Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411499622",
+          "name": "INV_SUB_1788411499622.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9127",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9553 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:57:39.622Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411459622",
+          "name": "INV_SUB_1788411459622.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9064",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5633 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:56:59.620Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411419620",
+          "name": "INV_SUB_1788411419620.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9395",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5147 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:56:19.614Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411379614",
+          "name": "INV_SUB_1788411379614.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9097",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1419 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:55:39.612Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411339612",
+          "name": "INV_SUB_1788411339612.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9207",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1865 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:54:59.603Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411299603",
+          "name": "INV_SUB_1788411299603.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9290",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4049 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:54:19.597Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411259597",
+          "name": "INV_SUB_1788411259597.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9093",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9091 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:53:39.591Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411219591",
+          "name": "INV_SUB_1788411219591.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9090",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9863 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:52:59.581Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411179581",
+          "name": "INV_SUB_1788411179581.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9278",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5116 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:52:19.567Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411139567",
+          "name": "INV_SUB_1788411139567.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9229",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6070 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:51:39.563Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411099563",
+          "name": "INV_SUB_1788411099563.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9244",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2974 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:50:59.548Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411059548",
+          "name": "INV_SUB_1788411059548.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9369",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8046 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:50:19.541Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788411019541",
+          "name": "INV_SUB_1788411019541.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9464",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1387 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:49:39.540Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410979540",
+          "name": "INV_SUB_1788410979540.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9150",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1820 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:48:59.537Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410939537",
+          "name": "INV_SUB_1788410939537.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9541",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9370 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:48:19.522Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410899522",
+          "name": "INV_SUB_1788410899522.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9358",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3593 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:47:39.509Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410859509",
+          "name": "INV_SUB_1788410859509.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9099",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2595 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:46:59.498Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410819498",
+          "name": "INV_SUB_1788410819498.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9317",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2396 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:46:19.488Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410779488",
+          "name": "INV_SUB_1788410779488.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9063",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5625 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:45:39.477Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410739477",
+          "name": "INV_SUB_1788410739477.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9355",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9912 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:44:59.472Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410699472",
+          "name": "INV_SUB_1788410699472.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9474",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8461 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:44:19.460Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410659460",
+          "name": "INV_SUB_1788410659460.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9246",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5619 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:43:39.445Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410619445",
+          "name": "INV_SUB_1788410619445.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9315",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2157 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:42:59.431Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410579431",
+          "name": "INV_SUB_1788410579431.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9478",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1119 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:42:19.431Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410539431",
+          "name": "INV_SUB_1788410539431.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9236",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8059 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:41:39.423Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410499423",
+          "name": "INV_SUB_1788410499423.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9189",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2351 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:40:59.410Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410459410",
+          "name": "INV_SUB_1788410459410.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9509",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5984 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:40:19.394Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410419394",
+          "name": "INV_SUB_1788410419394.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9286",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5918 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:39:39.392Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410379392",
+          "name": "INV_SUB_1788410379392.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9522",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6525 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:38:59.384Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410339384",
+          "name": "INV_SUB_1788410339384.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9093",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9052 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:38:19.369Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410299369",
+          "name": "INV_SUB_1788410299369.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9099",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4039 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:37:39.356Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410259356",
+          "name": "INV_SUB_1788410259356.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9111",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5047 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:36:59.343Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410219344",
+          "name": "INV_SUB_1788410219344.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9262",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8954 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:36:19.330Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410179330",
+          "name": "INV_SUB_1788410179330.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9066",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3656 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:35:39.328Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410139328",
+          "name": "INV_SUB_1788410139328.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9291",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7337 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:34:59.324Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410099324",
+          "name": "INV_SUB_1788410099324.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9347",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7999 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-09-03T04:34:19.318Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1788410059318",
+          "name": "INV_SUB_1788410059318.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9116",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1377 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:35:25.301Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862925301",
+          "name": "INV_SUB_1787862925301.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9221",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2865 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:34:45.290Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862885290",
+          "name": "INV_SUB_1787862885290.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9121",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6467 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:34:05.278Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862845278",
+          "name": "INV_SUB_1787862845278.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9398",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3836 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:33:25.266Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862805266",
+          "name": "INV_SUB_1787862805266.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9436",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4794 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:32:45.260Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862765260",
+          "name": "INV_SUB_1787862765260.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9523",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5549 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:32:05.249Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862725249",
+          "name": "INV_SUB_1787862725249.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9295",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8528 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:31:25.243Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862685243",
+          "name": "INV_SUB_1787862685243.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9141",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8210 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:30:45.228Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862645228",
+          "name": "INV_SUB_1787862645228.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9341",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3175 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:30:05.217Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862605217",
+          "name": "INV_SUB_1787862605217.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9334",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7430 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:29:25.212Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862565212",
+          "name": "INV_SUB_1787862565212.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9119",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6892 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:28:45.206Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862525206",
+          "name": "INV_SUB_1787862525206.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9229",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4263 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:28:05.190Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862485190",
+          "name": "INV_SUB_1787862485190.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9339",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1561 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:27:25.184Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862445184",
+          "name": "INV_SUB_1787862445184.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9161",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3426 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:26:45.176Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862405176",
+          "name": "INV_SUB_1787862405176.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9118",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9872 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:26:05.164Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862365164",
+          "name": "INV_SUB_1787862365164.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9398",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4184 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:25:25.155Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862325155",
+          "name": "INV_SUB_1787862325155.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9247",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1377 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:24:45.145Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862285145",
+          "name": "INV_SUB_1787862285145.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9425",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6466 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:24:05.138Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862245138",
+          "name": "INV_SUB_1787862245138.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9201",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8769 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:23:25.129Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862205129",
+          "name": "INV_SUB_1787862205129.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9348",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2263 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:22:45.125Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862165125",
+          "name": "INV_SUB_1787862165125.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9376",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9575 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:22:05.112Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862125112",
+          "name": "INV_SUB_1787862125112.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9359",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5344 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:21:25.107Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862085107",
+          "name": "INV_SUB_1787862085107.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9510",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1957 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:20:45.096Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862045096",
+          "name": "INV_SUB_1787862045096.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9355",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3047 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:20:05.091Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787862005091",
+          "name": "INV_SUB_1787862005091.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9334",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7096 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:19:25.080Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861965080",
+          "name": "INV_SUB_1787861965080.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9446",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1063 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:18:45.076Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861925076",
+          "name": "INV_SUB_1787861925076.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9528",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4782 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:18:05.073Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861885073",
+          "name": "INV_SUB_1787861885073.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9110",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8331 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:17:25.070Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861845070",
+          "name": "INV_SUB_1787861845071.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9346",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3213 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:16:45.056Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861805056",
+          "name": "INV_SUB_1787861805056.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9319",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2334 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:16:05.052Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861765052",
+          "name": "INV_SUB_1787861765052.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9208",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4598 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:15:25.038Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861725038",
+          "name": "INV_SUB_1787861725038.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9158",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1943 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:14:45.027Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861685027",
+          "name": "INV_SUB_1787861685027.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9202",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8807 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:14:05.026Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861645026",
+          "name": "INV_SUB_1787861645026.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9082",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5589 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:13:25.021Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861605021",
+          "name": "INV_SUB_1787861605021.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9151",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9225 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:12:45.022Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861565022",
+          "name": "INV_SUB_1787861565022.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9451",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8380 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:12:05.012Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861525012",
+          "name": "INV_SUB_1787861525012.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9260",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1667 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:11:24.998Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861484998",
+          "name": "INV_SUB_1787861484998.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9161",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7568 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:10:44.986Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861444986",
+          "name": "INV_SUB_1787861444986.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9507",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3130 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:10:04.982Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861404982",
+          "name": "INV_SUB_1787861404982.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9345",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-7911 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:09:24.967Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861364967",
+          "name": "INV_SUB_1787861364967.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9346",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6119 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:08:44.955Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861324955",
+          "name": "INV_SUB_1787861324955.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9201",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5972 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:08:04.943Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861284943",
+          "name": "INV_SUB_1787861284943.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9367",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2312 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:07:24.940Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861244940",
+          "name": "INV_SUB_1787861244940.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9413",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1288 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:06:44.927Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861204927",
+          "name": "INV_SUB_1787861204927.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9270",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4924 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:06:04.923Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861164923",
+          "name": "INV_SUB_1787861164923.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9472",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-8955 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:05:24.922Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861124922",
+          "name": "INV_SUB_1787861124922.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9321",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9656 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:04:44.915Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861084915",
+          "name": "INV_SUB_1787861084915.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9092",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5224 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:04:04.910Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861044910",
+          "name": "INV_SUB_1787861044910.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9093",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5382 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:03:24.898Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787861004898",
+          "name": "INV_SUB_1787861004898.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9120",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-1352 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:02:44.897Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860964897",
+          "name": "INV_SUB_1787860964897.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9190",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5880 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:02:04.894Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860924894",
+          "name": "INV_SUB_1787860924894.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9390",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3002 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:01:24.886Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860884886",
+          "name": "INV_SUB_1787860884886.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9376",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-4714 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:00:44.871Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860844871",
+          "name": "INV_SUB_1787860844871.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9113",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2412 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T20:00:04.857Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860804857",
+          "name": "INV_SUB_1787860804857.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9505",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-9864 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T19:59:24.856Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860764856",
+          "name": "INV_SUB_1787860764856.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9146",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-2175 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T19:58:44.841Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860724841",
+          "name": "INV_SUB_1787860724841.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9345",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3441 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T19:58:04.827Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860684827",
+          "name": "INV_SUB_1787860684827.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9451",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-3859 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T19:57:24.820Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860644820",
+          "name": "INV_SUB_1787860644820.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9381",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-5247 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T19:56:44.817Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860604817",
+          "name": "INV_SUB_1787860604817.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9456",
+      "sender": "billing@subcontractor-india.com",
+      "vendorName": "Subcontractor India Ltd",
+      "vendorCode": "VND-IN-10199",
+      "subject": "INVOICE # SUB-6698 - Plant IN10",
+      "body": "Attached invoice for ongoing plant maintenance supplies.",
+      "receivedAt": "2026-08-27T19:56:04.809Z",
+      "category": "Invoice Submission",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-1787860564809",
+          "name": "INV_SUB_1787860564809.pdf",
+          "size": "1.2 MB",
+          "type": "Invoice",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9042",
+      "sender": "ap-billing@tata-steel.com",
+      "vendorName": "Tata Steel Limited",
+      "vendorCode": "VND-IN-10021",
+      "subject": "TAX INVOICE # TS-2026-8891 - Plant IN10 Mumbai",
+      "body": "Dear Accounts Payable Team, Please find attached our Tax Invoice TS-2026-8891 for raw material supplies sent to Plant IN10. PO Reference: 4500892100.",
+      "receivedAt": "2026-08-28T07:15:00Z",
+      "category": "Invoice Submission",
+      "confidence": 0.98,
+      "status": "Processed",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Anish Verma",
+      "attachments": [
+        {
+          "id": "ATT-001",
+          "name": "INV_TS_2026_8891.pdf",
+          "size": "1.4 MB",
+          "type": "Invoice",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "id": "EML-9043",
+      "sender": "accounts@reliance-polymers.in",
+      "vendorName": "Reliance Polymers Pvt Ltd",
+      "vendorCode": "VND-IN-10044",
+      "subject": "Statement of Accounts for July/August 2026",
+      "body": "Greetings AP Dept, Attached is our monthly SOA for reconciliation against outstanding invoices.",
+      "receivedAt": "2026-08-28T06:40:00Z",
+      "category": "Statement of Accounts",
+      "confidence": 0.96,
+      "status": "Processed",
+      "region": "North",
+      "plant": "IN20 - Pune",
+      "assignedTo": "Sunil Mehta",
+      "attachments": [
+        {
+          "id": "ATT-002",
+          "name": "SOA_Reliance_Aug2026.pdf",
+          "size": "2.1 MB",
+          "type": "Statement of Accounts",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "id": "EML-9044",
+      "sender": "inquiries@lnt-heavy.com",
+      "vendorName": "Larsen & Toubro Ltd",
+      "vendorCode": "VND-IN-10088",
+      "subject": "Query: Payment Status for Inv # LT-88192 (PO 4500910022)",
+      "body": "Hi AP Team, Could you please update us on the clearing document and payment date for invoice LT-88192 submitted last month?",
+      "receivedAt": "2026-08-28T05:30:00Z",
+      "category": "Vendor Query",
+      "confidence": 0.94,
+      "status": "In Progress",
+      "region": "South",
+      "plant": "IN30 - Bengaluru",
+      "assignedTo": "Anish Verma",
+      "attachments": []
+    },
+    {
+      "id": "EML-9045",
+      "sender": "finance@mahindra-logistics.com",
+      "vendorName": "Mahindra Logistics Ltd",
+      "vendorCode": "VND-IN-10095",
+      "subject": "Freight Invoice # MLL-INV-55102 - Plant IN10",
+      "body": "Freight invoice for logistics dispatch to Mumbai plant.",
+      "receivedAt": "2026-08-28T05:12:00Z",
+      "category": "Invoice Submission",
+      "confidence": 0.95,
+      "status": "Failed OCR Validation",
+      "region": "West",
+      "plant": "IN10 - Mumbai",
+      "assignedTo": "Unassigned",
+      "attachments": [
+        {
+          "id": "ATT-003",
+          "name": "MLL_Freight_55102.pdf",
+          "size": "890 KB",
+          "type": "Invoice",
+          "confidence": 0.91
+        }
+      ]
+    },
+    {
+      "id": "EML-9046",
+      "sender": "corporate@infosys.com",
+      "vendorName": "Infosys Limited",
+      "vendorCode": "VND-IN-10112",
+      "subject": "Quarterly IT Services Invoice # INF-99201",
+      "body": "Non-PO IT Professional Consulting invoice.",
+      "receivedAt": "2026-08-28T04:50:00Z",
+      "category": "Invoice Submission",
+      "confidence": 0.97,
+      "status": "Pending MIRO",
+      "region": "South",
+      "plant": "IN30 - Bengaluru",
+      "assignedTo": "Priya Sharma",
+      "attachments": [
+        {
+          "id": "ATT-004",
+          "name": "INF_99201_Services.pdf",
+          "size": "1.8 MB",
+          "type": "Invoice",
+          "confidence": 0.98
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-2026-001",
+      "invoiceNumber": "TS-2026-8891",
+      "poNumber": "4500892100",
+      "poType": "PO Invoice",
+      "vendorName": "Tata Steel Limited",
+      "vendorCode": "VND-IN-10021",
+      "vendorType": "Third Party",
+      "gstin": "27AAACT2727Q1ZW",
+      "companyCode": "1000",
+      "plant": "IN10 - Mumbai",
+      "region": "West",
+      "invoiceDate": "2026-08-20",
+      "dueDate": "2026-09-20",
+      "currency": "INR",
+      "amount": 1450000,
+      "taxAmount": 261000,
+      "totalAmount": 1711000,
+      "glAccount": "400010 (Raw Material Procurement)",
+      "costCenter": "CC-1010 (Manufacturing)",
+      "wbs": "WBS-2026-STEEL-01",
+      "hsnSac": "720851",
+      "paymentTerms": "NT30 (30 Days Net)",
+      "ocrConfidence": 97.8,
+      "status": "MIRO Parked",
+      "paymentStatus": "Cleared",
+      "miroDocNumber": "5100098211",
+      "migoDocNumber": "5000881920",
+      "grnStatus": "RVS Posted",
+      "items": [
+        {
+          "item": 10,
+          "description": "Hot Rolled Steel Coils Grade A",
+          "qty": 25.5,
+          "unitPrice": 50000,
+          "lineTotal": 1275000,
+          "hsn": "720851"
+        },
+        {
+          "item": 20,
+          "description": "Freight & Handling Charges",
+          "qty": 1,
+          "unitPrice": 175000,
+          "lineTotal": 175000,
+          "hsn": "996511"
+        }
+      ]
+    },
+    {
+      "id": "INV-2026-002",
+      "invoiceNumber": "INF-99201",
+      "poNumber": "N/A (Non-PO)",
+      "poType": "Non-PO Invoice",
+      "vendorName": "Infosys Limited",
+      "vendorCode": "VND-IN-10112",
+      "vendorType": "Third Party",
+      "gstin": "29AAACI0001G1ZB",
+      "companyCode": "1000",
+      "plant": "IN30 - Bengaluru",
+      "region": "South",
+      "invoiceDate": "2026-08-22",
+      "dueDate": "2026-09-22",
+      "currency": "INR",
+      "amount": 850000,
+      "taxAmount": 153000,
+      "totalAmount": 1003000,
+      "glAccount": "520100 (IT Professional Services)",
+      "costCenter": "CC-3020 (IT Infrastructure)",
+      "wbs": "WBS-2026-ERP-MIG",
+      "hsnSac": "998313",
+      "paymentTerms": "NT30",
+      "ocrConfidence": 96.2,
+      "status": "MIRO Parked",
+      "paymentStatus": "Open",
+      "miroDocNumber": "5185243141",
+      "migoDocNumber": "N/A (Services)",
+      "grnStatus": "N/A",
+      "items": [
+        {
+          "item": 10,
+          "description": "SAP S4/HANA Cloud Integration Services",
+          "qty": 1,
+          "unitPrice": 850000,
+          "lineTotal": 850000,
+          "hsn": "998313"
+        }
+      ]
+    },
+    {
+      "id": "INV-2026-003",
+      "invoiceNumber": "MLL-INV-55102",
+      "poNumber": "4500910055",
+      "poType": "PO Invoice",
+      "vendorName": "Mahindra Logistics Ltd",
+      "vendorCode": "VND-IN-10095",
+      "vendorType": "Inter Company",
+      "gstin": "27AAACM9981K1ZH",
+      "companyCode": "1000",
+      "plant": "IN10 - Mumbai",
+      "region": "West",
+      "invoiceDate": "2026-08-25",
+      "dueDate": "2026-09-25",
+      "currency": "INR",
+      "amount": 320000,
+      "taxAmount": 57600,
+      "totalAmount": 377600,
+      "glAccount": "410050 (Inward Freight)",
+      "costCenter": "CC-1010",
+      "wbs": "WBS-2026-LOG-02",
+      "hsnSac": "996511",
+      "paymentTerms": "NT15",
+      "ocrConfidence": 84.5,
+      "status": "OCR Validation Warning",
+      "paymentStatus": "Open",
+      "miroDocNumber": null,
+      "migoDocNumber": null,
+      "grnStatus": "Pending GRN",
+      "items": [
+        {
+          "item": 10,
+          "description": "Inter-plant Heavy Logistics Transport",
+          "qty": 4,
+          "unitPrice": 80000,
+          "lineTotal": 320000,
+          "hsn": "996511"
+        }
+      ]
+    }
+  ],
+  "reconciliations": [
+    {
+      "id": "REC-2026-08-01",
+      "vendorCode": "VND-IN-10044",
+      "vendorName": "Reliance Polymers Pvt Ltd",
+      "period": "August 2026",
+      "statementCount": 14,
+      "matchedCount": 12,
+      "mismatchCount": 1,
+      "missingInSapCount": 1,
+      "missingInStmtCount": 0,
+      "netVariance": 45000,
+      "status": "Action Required",
+      "updatedAt": "2026-08-28T07:00:00Z",
+      "items": [
+        {
+          "statementInv": "REL-INV-8801",
+          "date": "2026-08-02",
+          "statementAmt": 540000,
+          "sapInv": "REL-INV-8801",
+          "sapAmt": 540000,
+          "clearingDoc": "20009912",
+          "status": "Paid",
+          "variance": 0
+        },
+        {
+          "statementInv": "REL-INV-8815",
+          "date": "2026-08-10",
+          "statementAmt": 820000,
+          "sapInv": "REL-INV-8815",
+          "sapAmt": 820000,
+          "clearingDoc": "20009988",
+          "status": "Open",
+          "variance": 0
+        },
+        {
+          "statementInv": "REL-INV-8840",
+          "date": "2026-08-18",
+          "statementAmt": 345000,
+          "sapInv": "REL-INV-8840",
+          "sapAmt": 300000,
+          "clearingDoc": null,
+          "status": "Amount Mismatch",
+          "variance": 45000
+        },
+        {
+          "statementInv": "REL-INV-8899",
+          "date": "2026-08-24",
+          "statementAmt": 195000,
+          "sapInv": null,
+          "sapAmt": null,
+          "clearingDoc": null,
+          "status": "Missing in SAP",
+          "variance": 195000
+        }
+      ]
+    }
+  ],
+  "sharepointFolders": [
+    {
+      "id": "SP-001",
+      "region": "West Region",
+      "path": "/SharePoint/Invoices/West/Plant_IN10/",
+      "totalFiles": 388,
+      "pendingFiles": 4,
+      "lastSynced": "2026-09-03T05:10:39.586Z"
+    },
+    {
+      "id": "SP-002",
+      "region": "North Region",
+      "path": "/SharePoint/Invoices/North/Plant_IN20/",
+      "totalFiles": 254,
+      "pendingFiles": 1,
+      "lastSynced": "2026-09-03T05:10:39.586Z"
+    },
+    {
+      "id": "SP-003",
+      "region": "South Region",
+      "path": "/SharePoint/Invoices/South/Plant_IN30/",
+      "totalFiles": 454,
+      "pendingFiles": 2,
+      "lastSynced": "2026-09-03T05:10:39.586Z"
+    },
+    {
+      "id": "SP-004",
+      "region": "East Region",
+      "path": "/SharePoint/Invoices/East/Plant_IN40/",
+      "totalFiles": 227,
+      "pendingFiles": 0,
+      "lastSynced": "2026-09-03T05:10:39.586Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "TKT-8801",
+      "vendorName": "Larsen & Toubro Ltd",
+      "vendorCode": "VND-IN-10088",
+      "queryType": "Payment Status",
+      "invoiceNumber": "LT-88192",
+      "poNumber": "4500910022",
+      "assignedTo": "Anish Verma (AP Lead)",
+      "status": "In Progress",
+      "slaHoursLeft": 14,
+      "createdAt": "2026-08-28T05:30:00Z",
+      "messages": [
+        {
+          "sender": "Vendor",
+          "text": "Where is the clearing document for LT-88192?",
+          "time": "08:30"
+        },
+        {
+          "sender": "AP Team",
+          "text": "Checking with SAP Finance Team. Payment scheduled for Friday.",
+          "time": "09:45"
+        }
+      ]
+    },
+    {
+      "id": "TKT-8802",
+      "vendorName": "Jindal Steel & Power",
+      "vendorCode": "VND-IN-10067",
+      "queryType": "MIGO / GRN Discrepancy",
+      "invoiceNumber": "JSP-44102",
+      "poNumber": "4500895511",
+      "assignedTo": "Priya Sharma (GRN Specialist)",
+      "status": "New",
+      "slaHoursLeft": 22,
+      "createdAt": "2026-08-28T07:15:00Z",
+      "messages": [
+        {
+          "sender": "Vendor",
+          "text": "GRN quantity recorded is 40 MT instead of 50 MT shipped.",
+          "time": "11:15"
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": 1788412259791,
+      "timestamp": "2026-09-03T05:10:59.791Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9394 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788412219783,
+      "timestamp": "2026-09-03T05:10:19.783Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9432 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788412179781,
+      "timestamp": "2026-09-03T05:09:39.781Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9196 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788412139779,
+      "timestamp": "2026-09-03T05:08:59.779Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9285 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788412099769,
+      "timestamp": "2026-09-03T05:08:19.769Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9173 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788412059725,
+      "timestamp": "2026-09-03T05:07:39.725Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9423 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788412019718,
+      "timestamp": "2026-09-03T05:06:59.718Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9476 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411979715,
+      "timestamp": "2026-09-03T05:06:19.715Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9376 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411939710,
+      "timestamp": "2026-09-03T05:05:39.710Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9288 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411899699,
+      "timestamp": "2026-09-03T05:04:59.699Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9477 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411859692,
+      "timestamp": "2026-09-03T05:04:19.692Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9388 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411819684,
+      "timestamp": "2026-09-03T05:03:39.684Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9198 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411779681,
+      "timestamp": "2026-09-03T05:02:59.681Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9311 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411739671,
+      "timestamp": "2026-09-03T05:02:19.671Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9134 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411699659,
+      "timestamp": "2026-09-03T05:01:39.659Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9315 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411659657,
+      "timestamp": "2026-09-03T05:00:59.657Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9397 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411619651,
+      "timestamp": "2026-09-03T05:00:19.651Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9082 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411579646,
+      "timestamp": "2026-09-03T04:59:39.646Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9494 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411539632,
+      "timestamp": "2026-09-03T04:58:59.632Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9351 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411499622,
+      "timestamp": "2026-09-03T04:58:19.622Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9104 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411459622,
+      "timestamp": "2026-09-03T04:57:39.622Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9127 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411419620,
+      "timestamp": "2026-09-03T04:56:59.620Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9064 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411379614,
+      "timestamp": "2026-09-03T04:56:19.614Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9395 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411339612,
+      "timestamp": "2026-09-03T04:55:39.612Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9097 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411299603,
+      "timestamp": "2026-09-03T04:54:59.603Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9207 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411259597,
+      "timestamp": "2026-09-03T04:54:19.597Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9290 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411219591,
+      "timestamp": "2026-09-03T04:53:39.591Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9093 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411179581,
+      "timestamp": "2026-09-03T04:52:59.581Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9090 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411139567,
+      "timestamp": "2026-09-03T04:52:19.567Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9278 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411099563,
+      "timestamp": "2026-09-03T04:51:39.563Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9229 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411059548,
+      "timestamp": "2026-09-03T04:50:59.548Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9244 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788411019541,
+      "timestamp": "2026-09-03T04:50:19.541Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9369 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410979540,
+      "timestamp": "2026-09-03T04:49:39.540Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9464 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410939537,
+      "timestamp": "2026-09-03T04:48:59.537Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9150 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410899522,
+      "timestamp": "2026-09-03T04:48:19.522Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9541 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410859509,
+      "timestamp": "2026-09-03T04:47:39.509Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9358 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410819498,
+      "timestamp": "2026-09-03T04:46:59.498Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9099 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410779488,
+      "timestamp": "2026-09-03T04:46:19.488Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9317 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410739477,
+      "timestamp": "2026-09-03T04:45:39.477Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9063 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410699472,
+      "timestamp": "2026-09-03T04:44:59.472Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9355 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410659460,
+      "timestamp": "2026-09-03T04:44:19.460Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9474 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410619445,
+      "timestamp": "2026-09-03T04:43:39.445Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9246 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410579431,
+      "timestamp": "2026-09-03T04:42:59.431Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9315 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410539431,
+      "timestamp": "2026-09-03T04:42:19.431Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9478 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410499423,
+      "timestamp": "2026-09-03T04:41:39.423Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9236 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410459410,
+      "timestamp": "2026-09-03T04:40:59.410Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9189 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410419395,
+      "timestamp": "2026-09-03T04:40:19.395Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9509 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410379392,
+      "timestamp": "2026-09-03T04:39:39.392Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9286 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410339384,
+      "timestamp": "2026-09-03T04:38:59.384Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9522 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410299369,
+      "timestamp": "2026-09-03T04:38:19.369Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9093 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410259356,
+      "timestamp": "2026-09-03T04:37:39.356Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9099 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410219344,
+      "timestamp": "2026-09-03T04:36:59.344Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9111 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410179330,
+      "timestamp": "2026-09-03T04:36:19.330Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9262 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410139328,
+      "timestamp": "2026-09-03T04:35:39.328Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9066 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410099324,
+      "timestamp": "2026-09-03T04:34:59.324Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9291 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1788410059318,
+      "timestamp": "2026-09-03T04:34:19.318Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9347 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862925301,
+      "timestamp": "2026-08-27T20:35:25.301Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9116 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862885290,
+      "timestamp": "2026-08-27T20:34:45.290Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9221 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862845278,
+      "timestamp": "2026-08-27T20:34:05.278Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9121 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862805266,
+      "timestamp": "2026-08-27T20:33:25.266Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9398 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862765260,
+      "timestamp": "2026-08-27T20:32:45.260Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9436 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862725249,
+      "timestamp": "2026-08-27T20:32:05.249Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9523 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862685243,
+      "timestamp": "2026-08-27T20:31:25.243Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9295 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862645228,
+      "timestamp": "2026-08-27T20:30:45.228Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9141 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862605217,
+      "timestamp": "2026-08-27T20:30:05.217Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9341 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862565212,
+      "timestamp": "2026-08-27T20:29:25.212Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9334 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862525206,
+      "timestamp": "2026-08-27T20:28:45.206Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9119 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862485190,
+      "timestamp": "2026-08-27T20:28:05.190Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9229 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862445184,
+      "timestamp": "2026-08-27T20:27:25.184Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9339 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862405176,
+      "timestamp": "2026-08-27T20:26:45.176Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9161 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862365164,
+      "timestamp": "2026-08-27T20:26:05.164Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9118 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862325155,
+      "timestamp": "2026-08-27T20:25:25.155Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9398 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862285145,
+      "timestamp": "2026-08-27T20:24:45.145Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9247 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862245138,
+      "timestamp": "2026-08-27T20:24:05.138Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9425 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862205129,
+      "timestamp": "2026-08-27T20:23:25.129Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9201 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862165125,
+      "timestamp": "2026-08-27T20:22:45.125Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9348 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862125112,
+      "timestamp": "2026-08-27T20:22:05.112Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9376 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862085107,
+      "timestamp": "2026-08-27T20:21:25.107Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9359 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862045096,
+      "timestamp": "2026-08-27T20:20:45.096Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9510 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787862005091,
+      "timestamp": "2026-08-27T20:20:05.091Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9355 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861965080,
+      "timestamp": "2026-08-27T20:19:25.080Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9334 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861925076,
+      "timestamp": "2026-08-27T20:18:45.076Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9446 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861885073,
+      "timestamp": "2026-08-27T20:18:05.073Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9528 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861845071,
+      "timestamp": "2026-08-27T20:17:25.071Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9110 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861805056,
+      "timestamp": "2026-08-27T20:16:45.056Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9346 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861765052,
+      "timestamp": "2026-08-27T20:16:05.052Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9319 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861725038,
+      "timestamp": "2026-08-27T20:15:25.038Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9208 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861685027,
+      "timestamp": "2026-08-27T20:14:45.027Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9158 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861645026,
+      "timestamp": "2026-08-27T20:14:05.026Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9202 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861605021,
+      "timestamp": "2026-08-27T20:13:25.021Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9082 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861565022,
+      "timestamp": "2026-08-27T20:12:45.022Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9151 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861525012,
+      "timestamp": "2026-08-27T20:12:05.012Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9451 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861484998,
+      "timestamp": "2026-08-27T20:11:24.998Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9260 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861444986,
+      "timestamp": "2026-08-27T20:10:44.986Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9161 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861404982,
+      "timestamp": "2026-08-27T20:10:04.982Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9507 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861364967,
+      "timestamp": "2026-08-27T20:09:24.967Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9345 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861324955,
+      "timestamp": "2026-08-27T20:08:44.955Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9346 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861284943,
+      "timestamp": "2026-08-27T20:08:04.943Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9201 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861244940,
+      "timestamp": "2026-08-27T20:07:24.940Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9367 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861204927,
+      "timestamp": "2026-08-27T20:06:44.927Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9413 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861164923,
+      "timestamp": "2026-08-27T20:06:04.923Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9270 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861124922,
+      "timestamp": "2026-08-27T20:05:24.922Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9472 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861084915,
+      "timestamp": "2026-08-27T20:04:44.915Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9321 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861044910,
+      "timestamp": "2026-08-27T20:04:04.910Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9092 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787861004898,
+      "timestamp": "2026-08-27T20:03:24.898Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9093 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860964897,
+      "timestamp": "2026-08-27T20:02:44.897Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9120 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860924894,
+      "timestamp": "2026-08-27T20:02:04.894Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9190 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860884886,
+      "timestamp": "2026-08-27T20:01:24.886Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9390 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860844872,
+      "timestamp": "2026-08-27T20:00:44.872Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9376 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860804857,
+      "timestamp": "2026-08-27T20:00:04.857Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9113 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860764856,
+      "timestamp": "2026-08-27T19:59:24.856Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9505 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860724841,
+      "timestamp": "2026-08-27T19:58:44.841Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9146 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860684827,
+      "timestamp": "2026-08-27T19:58:04.827Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9345 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860644820,
+      "timestamp": "2026-08-27T19:57:24.820Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9451 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860604817,
+      "timestamp": "2026-08-27T19:56:44.817Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9381 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860564809,
+      "timestamp": "2026-08-27T19:56:04.809Z",
+      "user": "Outlook Background Worker",
+      "module": "Email Ingestion",
+      "action": "Auto-ingested & classified email EML-9456 from billing@subcontractor-india.com"
+    },
+    {
+      "id": 1787860554815,
+      "timestamp": "2026-08-27T19:55:54.815Z",
+      "user": "SAP BAPI Worker",
+      "module": "MIRO Parking",
+      "action": "Auto-parked MIRO Document 5185243141 for Invoice INF-99201"
+    },
+    {
+      "id": 1001,
+      "timestamp": "2026-08-28T07:25:10Z",
+      "user": "System (AI Pipeline)",
+      "module": "Email Classifier",
+      "action": "Classified EML-9042 as Invoice Submission (Conf: 98%)"
+    },
+    {
+      "id": 1002,
+      "timestamp": "2026-08-28T07:26:00Z",
+      "user": "System (OCR Engine)",
+      "module": "Document AI",
+      "action": "Extracted Invoice TS-2026-8891 (Confidence: 97.8%)"
+    },
+    {
+      "id": 1003,
+      "timestamp": "2026-08-28T07:27:30Z",
+      "user": "Rajesh Kumar (AP Processor)",
+      "module": "SAP MIRO",
+      "action": "Executed MIRO Parking for INV-2026-001 -> SAP Doc # 5100098211"
+    },
+    {
+      "id": 1004,
+      "timestamp": "2026-08-28T07:28:15Z",
+      "user": "System (MIGO Bot)",
+      "module": "SAP MIGO",
+      "action": "Posted RVS MIGO for Goods Receipt 5000881920"
+    }
+  ]
+}
